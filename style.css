@@ -48,11 +48,11 @@ nav ul li a{
 }
 
 .hero-section{
-    text-align: center;
     padding: 56px;
 }
 
 .hero-content{
+    text-align: center;
     margin-bottom: 24px;
 }
 
@@ -74,32 +74,32 @@ nav ul li a{
     height: auto;
 }
 
+.author-tag{
+    display: flex;
+}
+
 .author{
     display: flex;
-    justify-content: left;
-    margin-top: 24px;
+    float: left;
+    width: 70%;
+    
 }
 
 .author .avatar{
-    width: 64px;
-    height: 64px;
+    width: 40px;
+    height: 40px;
     background-color: #d8d8d8;
     border-radius: 60%;
     margin-right: 16px;
 }
 
-/*.author-info p{
-    margin: 0;
-}*/
-
-.author .author-info{
-    justify-content: left;
+.author .author-info .author-name{
+    margin-bottom: 4px;
 }
 
-.author .author-info .author-name p{
-    text-align: left;
+.social-media-icons{
+    display: flex;
+    float: right;
+    width: 30%;
+    gap: 16px;
 }
-.author .author-info .author-desc{
-    justify-content: left;
-}
-/* This part is confusing*/

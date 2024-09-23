@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Switzer", sans-serif;
 }
 
 body{
@@ -49,10 +50,11 @@ nav ul li a{
 
 .hero-section{
     padding: 56px;
+    margin: 0 200px;
+    justify-content: center;
 }
 
 .hero-content{
-    text-align: center;
     margin-bottom: 24px;
 }
 
@@ -71,18 +73,18 @@ nav ul li a{
 
 .hero-content img{
     max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 .author-tag{
     display: flex;
+    gap: 408px;
 }
 
 .author{
     display: flex;
     float: left;
-    width: 70%;
-    
 }
 
 .author .avatar{
@@ -97,9 +99,15 @@ nav ul li a{
     margin-bottom: 4px;
 }
 
-.social-media-icons{
+.contact-portfolio-icons{
     display: flex;
     float: right;
-    width: 30%;
     gap: 16px;
 }
+
+.contact-portfolio-icons img{
+    width: 32px;
+    height: 32px;
+}
+
+
